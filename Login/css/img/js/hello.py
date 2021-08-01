@@ -1,0 +1,2 @@
+tradingSystems = 'hello'
+print(tradingSystems)

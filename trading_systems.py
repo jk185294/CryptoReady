@@ -53,7 +53,18 @@ tick = _client.get_product_ticker(product_id='BTC-USD')
 # print(tick['bid'])
 
 
+#Authenticated Client Methods ******************************************************************************************************
 
+# auth_client.buy(price='43000', #USD
+#                size='5', #BTC
+#                order_type='limit',
+#                product_id='BTC-USD')
+
+
+auth_client.sell(price='40000', #USD
+                size='20', #BTC
+                order_type='limit',
+                product_id='BTC-USD')
 
 
 # def get_fills(self, product_id=None, order_id=None, **kwargs):

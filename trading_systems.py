@@ -27,7 +27,6 @@ product_ticker = _client.get_product_ticker(product_id='BTC-USD')
 
 product_trades = _client.get_product_trades(product_id='BTC-USD')
 
-
 # generator??? ******************************************************************************************************
 # print(product_trades)
 
@@ -36,7 +35,6 @@ product_historic_rates = _client.get_product_historic_rates(product_id='BTC-USD'
 # print(product_historic_rates)
 
 product_24hr_stats = _client.get_product_24hr_stats('ETH-USD')
-
 
 # why NotFound when ETH-USD? ******************************************************************************************************
 # print(product_24hr_stats)
@@ -51,8 +49,11 @@ time = _client.get_time()
 
 
 tick = _client.get_product_ticker(product_id='BTC-USD')
- 
+
 # print(tick['bid'])
+
+
+
 
 
 # def get_fills(self, product_id=None, order_id=None, **kwargs):

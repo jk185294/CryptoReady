@@ -1,2 +1,0 @@
-tradingSystems = 'hello'
-print(tradingSystems)
